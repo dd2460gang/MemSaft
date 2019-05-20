@@ -254,6 +254,7 @@ int do_list(uf)
         if (err!=UNZ_OK)
         {
             printf("error %d with zipfile in unzGetCurrentFileInfo\n",err);
+            continue;
         }
         if (file_info.uncompressed_size>0)
             ratio = (uLong)((file_info.compressed_size*100)/file_info.uncompressed_size);

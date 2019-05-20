@@ -1,0 +1,7 @@
+MiniUnz 1.01b, demo of zLib + Unz package written by Gilles Vollant
+more info at http://www.winimage.com/zLibDll/unzip.html
+
+mzm-bug.zip opened
+  Length  Method     Size Ratio   Date    Time   CRC-32     Name
+  ------  ------     ---- -----   ----    ----   ------     ----
+error -103 with zipfile in unzGetCurrentFileInfo
